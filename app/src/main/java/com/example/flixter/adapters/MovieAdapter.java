@@ -73,7 +73,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
             tvOverview.setText(movie.getOverview());
             String imageURL;
             if (context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE){
-                imageURL = movie.getBackdropPath();
+                imageURL = movie.getPosterPath();
             } else {
                 imageURL = movie.getBackdropPath();
             }
