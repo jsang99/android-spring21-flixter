@@ -1,39 +1,37 @@
-# android-unit01-spring21
+# android-spring21
 # <Flixter App>
 
-**Flixter App** is an android app that allows viewing of currently popular movies and their brief descriptions. 
+**Flixter App** is an android app that allows viewing of currently popular movies and their brief descriptions. It can be viewed properly in both landscape and portrait mode. Users can view the star-rating and a trailer of the movie on YouTube.
 
 Submitted by: **Jiyan 'Kevin' Sang**
 
-Time spent: **10** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [x] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+* [x] Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+* [x] Allow video posts to be played in full-screen using the YouTubePlayerView.
 
 The following **optional** features are implemented:
 
-* [ ] Views should be responsive for both landscape/portrait mode. 
-
-* [ ] Display a nice default placeholder graphic for each image during loading (read more about Glide). If you're running your app on an emulator, you can change the network speed of the emulator to test this feature by following the guidance here.
-
-* [ ] Improve the user interface through styling and coloring (1 to 5 points depending on the difficulty of UI improvements)
-
-* [ ] For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones. (2 points)
+* [ ] Implement a shared element transition when user clicks into the details of a movie. 
+* [ ] Trailers for popular movies are played automatically when the movie is selected.
+* [ ] Add a play icon overlay to popular movies to indicate that the movie can be played.
+* [ ] Apply data binding for views to help remove boilerplate code.
+* [ ] Add a rounded corners for the images using the Glide transformations.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media1.giphy.com/media/Ff4j8pkxcL8RRuI6Su/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/jsang99/android-spring21-flixter/blob/master/flixter_unit2_demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Notes
 
-It was really fun learning about API and JSON, even though I ran into some problems with the emulator.
-
+As far as the second attempt for me to build an android app, this time things went much more smooth than the last time! 
 ## License
 
     Copyright [2021] [Jiyan Sang]
