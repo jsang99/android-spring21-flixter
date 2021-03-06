@@ -11,7 +11,7 @@ import com.example.flixter.models.Movie;
 import org.parceler.Parcels;
 
 public class DetailedActivity extends AppCompatActivity {
-
+    private static final String YOUTUBE_API_KEY = "AIzaSyDGlBC5ckNJQ21jVh-YhXrw0dLwcn1QfW4";
     TextView tvTitle2;
     TextView tvOverview2;
     RatingBar ratingBar;
